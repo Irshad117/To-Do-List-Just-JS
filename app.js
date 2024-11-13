@@ -29,6 +29,7 @@ container.appendChild(list);
 addButton.innerHTML = "Add";
 addButton.style.padding = "7px";
 addButton.style.borderRadius = "10px";
+addButton.style. 
 
 addButton.addEventListener("click", function() {
     let item = document.createElement("li");
