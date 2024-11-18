@@ -46,13 +46,21 @@
 // });
 
 
-const error = document.getElementsByClassName("error");
-const form = document.getElementsByClassName("form");
-const name = document.getElementById("text");
-const password = document.getElementById("password");
-const submit = document.getElementById("submit");
+// const error = document.getElementsByClassName("error");
+// const form = document.getElementsByClassName("form");
+// const name = document.getElementById("text");
+// const password = document.getElementById("password");
+// const submit = document.getElementById("submit");
 
-form.addEventListener("submit", function(e){
-    console.log("submitt successfully submitted");
+// form.addEventListener("submit", function(e){
+//     console.log("submitt successfully submitted");
 
-});
+// });
+
+
+function myValue(s1,s2){
+    return (s1 + s2 )/ 2;
+}
+
+let result = myValue (12,4);
+document.querySelector(".demo").innerHTML = result
